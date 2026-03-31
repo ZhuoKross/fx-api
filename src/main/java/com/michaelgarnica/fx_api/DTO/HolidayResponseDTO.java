@@ -5,6 +5,5 @@ import lombok.Builder;
 import java.time.LocalDate;
 
 @Builder
-public record HolidayResponseDTO(
-        LocalDate settlementDate
-) {}
+public record HolidayResponseDTO(LocalDate settlementDate) {
+}
